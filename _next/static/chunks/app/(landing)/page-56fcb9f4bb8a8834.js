@@ -23,7 +23,7 @@
           }),
         o = () => {
           let [e, t] = (0, l.useState)(!1),
-            [a] = (0, l.useState)("0xComingSoon"),
+            [a] = (0, l.useState)("0xD20af3fC047ef629ad5122F0b5E942a355350bE4"),
             o = async () => {
               try {
                 await navigator.clipboard.writeText(a),
@@ -157,7 +157,7 @@
                   (0, r.jsx)("div", {
                     className: "lg:flex lg:flex-1 lg:justify-end",
                     children: (0, r.jsx)("a", {
-                      href: "https://app.uniswap.org/swap?inputCurrency=ETHb&outputCurrency=0xcomingsoon",
+                      href: "https://app.uniswap.org/swap?inputCurrency=ETHb&outputCurrency=0xD20af3fC047ef629ad5122F0b5E942a355350bE4",
                       target: "_blank",
                       className:
                         "transition duration-200 font-stopbuck text-lg sm:text-2xl rounded-xl px-3.5 py-2.5 font-medium text-themeclr shadow-2xl bg-gray-300 hover:bg-themeclr hover:text-gray-300 hover:outline-black outline outline-2 outline-offset-0",
