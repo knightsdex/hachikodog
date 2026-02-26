@@ -1,0 +1,130 @@
+.elementor-kit-6 {
+  --e-global-color-primary: #ffaa00;
+  --e-global-color-secondary: #111111;
+  --e-global-color-text: #edcea7;
+  --e-global-color-accent: #ffaa01;
+  --e-global-color-6148e1c: #edcea7;
+  --e-global-color-082b293: #ffffff;
+  --e-global-color-7e4415b: #fff6e4;
+  --e-global-color-56a9ae0: #1dcc6c;
+  --e-global-color-22f154e: #d25a81;
+  --e-global-color-acebfa7: #a66a49;
+  --e-global-typography-primary-font-family: "Luckiest Guy";
+  --e-global-typography-primary-font-size: 3.125rem;
+  --e-global-typography-primary-font-weight: 500;
+  --e-global-typography-secondary-font-family: "Luckiest Guy";
+  --e-global-typography-secondary-font-size: 1.5rem;
+  --e-global-typography-secondary-font-weight: 500;
+  --e-global-typography-text-font-family: "Baloo 2";
+  --e-global-typography-text-font-size: 1.25rem;
+  --e-global-typography-text-font-weight: 500;
+  --e-global-typography-accent-font-family: "Luckiest Guy";
+  --e-global-typography-accent-font-size: 2.5rem;
+  --e-global-typography-accent-font-weight: 500;
+  --e-global-typography-9f3c53d-font-size: 2rem;
+  --e-global-typography-9f3c53d-font-weight: 500;
+  --e-global-typography-2ba710d-font-size: 1rem;
+  --e-global-typography-2ba710d-font-weight: 500;
+  --e-global-typography-02152b4-font-size: 1.25rem;
+  --e-global-typography-02152b4-font-weight: 500;
+  --e-global-typography-b36f9d4-font-size: 1.875rem;
+  --e-global-typography-b36f9d4-font-weight: 500;
+  --e-global-typography-b842f9a-font-size: 2.25rem;
+  --e-global-typography-b842f9a-font-weight: 500;
+  --e-global-typography-73d4250-font-size: 3.875rem;
+  --e-global-typography-73d4250-font-weight: 500;
+  --e-global-typography-ec2906d-font-size: 7.5rem;
+  --e-global-typography-ec2906d-font-weight: 500;
+  --e-global-typography-4d7ce0c-font-size: 4rem;
+  --e-global-typography-4d7ce0c-font-weight: 500;
+  --e-global-typography-d9e05f7-font-size: 3.375rem;
+  --e-global-typography-d9e05f7-font-weight: 500;
+  --e-global-typography-abc1a58-font-size: 3.375rem;
+  --e-global-typography-abc1a58-font-weight: 500;
+  --e-global-typography-773f552-font-size: 2rem;
+  --e-global-typography-773f552-font-weight: 500;
+  --e-global-typography-868d4b1-font-size: 1.125rem;
+  --e-global-typography-868d4b1-font-weight: 500;
+  --e-global-typography-8feb3b2-font-size: 12rem;
+  --e-global-typography-781c4ae-font-size: 6em;
+  --e-global-typography-781c4ae-font-weight: 500;
+  --e-global-typography-1a0cbbd-font-family: "pepe3";
+  --e-global-typography-1a0cbbd-font-size: 6rem;
+  background-color: var(--e-global-color-primary);
+}
+.elementor-kit-6 e-page-transition {
+  background-color: #ffbc7d;
+}
+.elementor-section.elementor-section-boxed > .elementor-container {
+  max-width: 1140px;
+}
+.e-con {
+  --container-max-width: 1140px;
+}
+.elementor-widget:not(:last-child) {
+  margin-block-end: 20px;
+}
+.elementor-element {
+  --widgets-spacing: 20px 20px;
+  --widgets-spacing-row: 20px;
+  --widgets-spacing-column: 20px;
+}
+ {
+}
+h1.entry-title {
+  display: var(--page-title-display);
+}
+.site-header .site-branding {
+  flex-direction: column;
+  align-items: stretch;
+}
+.site-header {
+  padding-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+.site-footer .site-branding {
+  flex-direction: column;
+  align-items: stretch;
+}
+@media (max-width: 1024px) {
+  .elementor-kit-6 {
+    --e-global-typography-primary-font-size: 2em;
+    --e-global-typography-9f3c53d-font-size: 1.5rem;
+    --e-global-typography-8feb3b2-font-size: 8rem;
+    --e-global-typography-781c4ae-font-size: 5em;
+    --e-global-typography-1a0cbbd-font-size: 4rem;
+  }
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1024px;
+  }
+  .e-con {
+    --container-max-width: 1024px;
+  }
+}
+@media (max-width: 767px) {
+  .elementor-kit-6 {
+    --e-global-typography-primary-font-size: 2em;
+    --e-global-typography-b842f9a-font-size: 22px;
+    --e-global-typography-73d4250-font-size: 19px;
+    --e-global-typography-ec2906d-font-size: 49px;
+    --e-global-typography-4d7ce0c-font-size: 41px;
+    --e-global-typography-8feb3b2-font-size: 5rem;
+    --e-global-typography-781c4ae-font-size: 3.2em;
+    --e-global-typography-1a0cbbd-font-size: 3rem;
+  }
+  .elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 767px;
+  }
+  .e-con {
+    --container-max-width: 767px;
+  }
+} /* Start Custom Fonts CSS */
+@font-face {
+  font-family: "pepe3";
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("/wp-content/uploads/2025/05/file-1-2.woff2")
+    format("woff2");
+}
+/* End Custom Fonts CSS */
